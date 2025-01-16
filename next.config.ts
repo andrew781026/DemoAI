@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   // https://nextjs.org/docs/app/building-your-application/deploying/static-exports
   output: 'export',
 
+  basePath: '/DemoAI',
+
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
 
