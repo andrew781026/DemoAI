@@ -39,7 +39,7 @@ export default function Home() {
               <div key={`img-${index}`} className="snap-start w-full flex min-h-screen max-h-screen justify-center items-center">
                 <img className="m-auto" style={{maxHeight:'80vh'}} src={item.image.src} />
               </div>
-              <div key={`codepen-${index}`} className="w-[85vw] gap-2 snap-start min-h-screen flex flex-col justify-center mx-auto">
+              <div key={`codepen-${index}`} className="w-[80vw] gap-2 snap-start min-h-screen flex flex-col justify-center mx-auto">
                 <h4 className="text-3xl font-bold">{item.title}</h4>
                 <iframe height="500"
                         style={{ width: '100%' }}
